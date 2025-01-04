@@ -5,7 +5,7 @@ const Navbar = () => {
     const links = <>
         <li><a>Home</a></li>
 
-        <li><a>About</a></li>
+        <li><a>Project</a></li>
         <li><a>Resume</a></li>
         <li><a>Contact</a></li>
     </>
