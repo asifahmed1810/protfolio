@@ -30,7 +30,7 @@ const Header = () => {
                             </a>
                         </div>
                         <div className="text-2xl">
-                            <a href="" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.facebook.com/profile.php?id=100011541277428" target="_blank" rel="noopener noreferrer">
                                 <FaFacebook />
                             </a>
                         </div>
