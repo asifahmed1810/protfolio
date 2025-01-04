@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import AboutMe from '../components/AboutMe';
 import Skills from '../components/Skills';
 import EducationalExprerience from '../components/EducationalExprerience';
+import ContactCard from '../components/ContactCard';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
            <AboutMe></AboutMe>
            <Skills></Skills>
            <EducationalExprerience></EducationalExprerience>
+           <ContactCard></ContactCard>
         </div>
     );
 };
