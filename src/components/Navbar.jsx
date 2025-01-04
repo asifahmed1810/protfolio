@@ -42,7 +42,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-neutral">Button</a>
+                <a className="btn btn-neutral">Download Resume</a>
             </div>
         </div>
     );
