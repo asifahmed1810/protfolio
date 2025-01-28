@@ -1,46 +1,73 @@
 import React from 'react';
-import photo from '../assets/photo.png'
+import photo from '../assets/photo.png';
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Header = () => {
-    return (
-        <div className="hero  min-h-screen ">
-            <div className="hero-content flex-col lg:flex-row-reverse">
-                <img
-                    src={photo}
-                    className=" w-2/6 mt-14 max-sm:w-2/5 rounded-lg shadow-2xl" />
-                <div>
-                    <h1 className="text-5xl font-bold"><span className='text-rose-600'>Hello</span><br /> I am Asif Ahmed</h1>
-                    <p className="py-6">
-                        Efficient and eager programmer holding a Bachelor’s
-                        degree in Computer science from Independent
-                        University, Bangladesh (IUB). Fully focused on Web
-                        development skills for developing newer and more
-                        creative softwares with necessary work stuff.
-                    </p>
-                    <div className="flex space-x-3 mb-5">
-                        <div className="text-2xl">
-                            <a href="https://github.com/asifahmed1810" target="_blank" rel="noopener noreferrer">
-                                <FaGithub />
-                            </a>
-                        </div>
-                        <div className="text-2xl">
-                            <a href="https://www.linkedin.com/in/asif-ahmed-a2a60226a" target="_blank" rel="noopener noreferrer">
-                                <FaLinkedin />
-                            </a>
-                        </div>
-                        <div className="text-2xl">
-                            <a href="https://www.facebook.com/profile.php?id=100011541277428" target="_blank" rel="noopener noreferrer">
-                                <FaFacebook />
-                            </a>
-                        </div>
-                    </div>
+  return (
+    <div className="hero min-h-screen px-4 sm:px-8 lg:px-16 mt-16 text-white">
+      <div className="hero-content flex-col lg:flex-row-reverse items-center lg:items-start">
+        {/* Image Section */}
+        <img
+          src={photo}
+          alt="Asif Ahmed"
+          className="w-4/6 sm:w-3/6 lg:w-2/6 rounded-lg shadow-2xl"
+        />
 
-                    <button className="btn btn-neutral">Download Resume</button>
-                </div>
-            </div>
+        {/* Content Section */}
+        <div className="text-center lg:text-left mt-8 lg:mt-20 lg:mr-8">
+          {/* Title */}
+          <h1 className="text-4xl sm:text-5xl font-bold">
+            <span className="text-rose-600">Hello</span>
+            <br /> I am Asif Ahmed
+          </h1>
+
+          {/* Description */}
+          <p className="py-6 text-lg leading-relaxed">
+          I am a dedicated Web Developer in Front-End Development, specializing in React.js and proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js). My passion for web development drives me to create efficient, responsive, and user-friendly applications.While my primary focus has been on front-end development—crafting visually appealing and interactive user interfaces—I am equally enthusiastic about exploring back-end development.
+            
+          </p>
+
+          {/* Social Media Icons */}
+          <div className="flex justify-center lg:justify-start space-x-4 mb-6">
+            <a
+              href="https://github.com/asifahmed1810"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl hover:text-gray-400"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/asif-ahmed-a2a60226a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl hover:text-gray-400"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100011541277428"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl hover:text-gray-400"
+            >
+              <FaFacebook />
+            </a>
+          </div>
+
+          {/* Resume Button */}
+          <a
+            className="btn btn-neutral px-6 py-3 font-medium"
+            href="https://drive.google.com/file/d/1KizB4kaBLglUuu-HP-5TJlVkslg9VuNO/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download Resume
+          </a>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Header;

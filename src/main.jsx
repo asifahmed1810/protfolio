@@ -10,7 +10,7 @@ import router from './Routes/router.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className='bg-black min-h-screen text-white'>
+    <div className=' min-h-screen text-white'>
       <div className='w-4/5 mx-auto'>
         <RouterProvider router={router} />
       </div>

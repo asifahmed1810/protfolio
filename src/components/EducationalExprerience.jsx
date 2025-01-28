@@ -1,14 +1,15 @@
 import React from 'react';
 
-const EducationalExprerience = () => {
+const EducationalExperience = () => {
     return (
-        <div>
-            <h2 className='text-4xl text-center font-bold mt-16  text-orange-600'>Educational Exprerience</h2>
+        <div className="my-16 px-4">
+            <h2 className="text-4xl text-center font-bold text-orange-600">Educational Experience</h2>
+
             <div className="flex justify-center items-center mt-16">
-                <div className="card bg-slate-900 text-white w-full md:w-2/3 lg:w-2/3 shadow-xl p-6">
-                    <div className="card-body space-y-4">
+                <div className="card bg-slate-900 text-white w-full max-w-4xl shadow-xl p-6">
+                    <div className="card-body space-y-10">
                         {/* Bachelor's Degree */}
-                        <div>
+                        <div className='space-y-4'>
                             <h2 className="card-title text-2xl text-rose-500">
                                 Bachelor of Science (B.Sc.)
                             </h2>
@@ -19,16 +20,17 @@ const EducationalExprerience = () => {
                                 <strong>Institution:</strong> Independent University, Bangladesh (IUB)
                             </p>
                             <p>
-                                <strong>Concentration:</strong> Software Development,  Artificial Intelligence
+                                <strong>Concentration:</strong> Software Development, Artificial Intelligence
                             </p>
-                            
                             <p>
                                 <strong>Year:</strong> 2022 - Present
                             </p>
                         </div>
+
                         <hr className="border-gray-600" />
+
                         {/* Higher Secondary Certificate */}
-                        <div>
+                        <div className='space-y-4'>
                             <h2 className="card-title text-2xl text-rose-500">
                                 Higher Secondary Certificate (HSC)
                             </h2>
@@ -42,9 +44,8 @@ const EducationalExprerience = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };
 
-export default EducationalExprerience;
+export default EducationalExperience;
