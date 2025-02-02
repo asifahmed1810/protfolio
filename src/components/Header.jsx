@@ -42,7 +42,7 @@ const Header = () => {
 
           {/* Description */}
           <p className="py-6 text-lg leading-relaxed" data-aos="fade-up">
-          I am a dedicated Web Developer in Front-End Development, specializing in React.js and proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js). My passion for web development drives me to create efficient, responsive, and user-friendly applications.While my primary focus has been on front-end development—crafting visually appealing and interactive user interfaces—I am equally enthusiastic about exploring back-end development.
+            I am a dedicated Web Developer in Front-End Development, specializing in React.js and proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js). My passion for web development drives me to create efficient, responsive, and user-friendly applications.While my primary focus has been on front-end development—crafting visually appealing and interactive user interfaces—I am equally enthusiastic about exploring back-end development.
           </p>
 
           {/* Social Media Icons */}
@@ -59,12 +59,13 @@ const Header = () => {
           </div>
 
           {/* Resume Button */}
+          
           <a
             className="btn btn-neutral px-6 py-3 font-medium"
-            href="https://drive.google.com/file/d/1KizB4kaBLglUuu-HP-5TJlVkslg9VuNO/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-aos="flip-up"
+            href="https://drive.google.com/uc?export=download&id=14INRE_HNzFMKyUdF0gypEp3JPNebmVwK"
+             data-aos="flip-up"
+
+            download
           >
             Download Resume
           </a>

@@ -44,7 +44,14 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-neutral" href='https://drive.google.com/file/d/1KizB4kaBLglUuu-HP-5TJlVkslg9VuNO/view?usp=sharing' target='_blank'>Download Resume</a>
+                    <a
+                        className="btn btn-neutral"
+                        href="https://drive.google.com/uc?export=download&id=14INRE_HNzFMKyUdF0gypEp3JPNebmVwK"
+                        
+                        download
+                    >
+                        Download Resume
+                    </a>
                 </div>
             </div>
         </div>
