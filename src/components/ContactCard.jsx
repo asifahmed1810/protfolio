@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhone, FaWhatsapp } from 'react-icons/fa';
 
 const ContactCard = () => {
   return (
-    <div className="flex justify-center items-center mt-16 px-4">
+    <div className="flex justify-center items-center my-16 px-4">
       <div className="card bg-slate-900 text-white w-full max-w-lg shadow-xl rounded-lg">
         <div className="card-body space-y-8">
           {/* Card Title */}
@@ -25,7 +25,9 @@ const ContactCard = () => {
           {/* Phone Number */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
             <FaPhone className="text-2xl text-green-500 flex-shrink-0" />
-            <p className="text-lg">01611376188</p>
+            <a href="tel:+1234567890" className=" hover:underline">
+              +8801611376188
+            </a>
           </div>
 
           {/* WhatsApp */}
