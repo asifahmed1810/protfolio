@@ -28,12 +28,12 @@ const Header = () => {
             <span className="text-rose-600">Hello</span>
             <br />
             <Typewriter
-              options={{ loop: true }}
+              
               onInit={(typewriter) => {
                 typewriter
                   .typeString("I am Asif Ahmed")
                   .pauseFor(2500)
-                  .deleteAll()
+                 
                   .pauseFor(1000)
                   .start();
               }}
