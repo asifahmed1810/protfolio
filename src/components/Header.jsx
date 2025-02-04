@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className="hero min-h-screen px-4 sm:px-8 lg:px-16 mt-16 text-white">
       <div className="hero-content flex-col lg:flex-row-reverse items-center lg:items-start">
-        {/* Image Section */}
+      
         <img
           src={photo}
           alt="Asif Ahmed"
