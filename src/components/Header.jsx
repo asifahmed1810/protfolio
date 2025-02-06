@@ -25,7 +25,7 @@ const Header = () => {
         <div className="text-center lg:text-left mt-8 lg:mt-20 lg:mr-8" data-aos="fade-right">
           {/* Title */}
           <h1 className="text-4xl sm:text-5xl font-bold">
-            <span className="text-rose-600">Hello</span>
+            <span className="text-orange-500">Hello</span>
             <br />
             <Typewriter
               

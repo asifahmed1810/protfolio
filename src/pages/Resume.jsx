@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => {
     return (
-        <div className="bg-gray-900 mt-20 text-white min-h-screen p-8">
+        <div className="bg-gray-900 my-20  text-white min-h-screen p-8">
             <div className="max-w-4xl mx-auto">
                 {/* Header */}
                 <div className="text-center">

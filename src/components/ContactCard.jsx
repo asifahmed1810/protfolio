@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaEnvelope, FaPhone, FaWhatsapp } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const ContactCard = () => {
   return (
@@ -41,7 +42,14 @@ const ContactCard = () => {
             >
               Chat on WhatsApp
             </a>
+
           </div>
+          <Link to={'/contact'}>
+            <button
+              className="px-8 py-3 bg-orange-500 hover:bg-orange-600 rounded-lg font-bold text-lg">Direct Message
+
+            </button>
+          </Link>
         </div>
       </div>
     </div>
