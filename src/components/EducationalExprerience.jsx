@@ -10,7 +10,7 @@ const EducationalExperience = () => {
                     <div className="card-body space-y-10">
                         {/* Bachelor's Degree */}
                         <div className='space-y-4'>
-                            <h2 className="card-title text-2xl text-rose-500">
+                            <h2 className="card-title text-2xl text-orange-300">
                                 Bachelor of Science (B.Sc.)
                             </h2>
                             <p className="mt-2">
@@ -31,7 +31,7 @@ const EducationalExperience = () => {
 
                         {/* Higher Secondary Certificate */}
                         <div className='space-y-4'>
-                            <h2 className="card-title text-2xl text-rose-500">
+                            <h2 className="card-title text-2xl text-orange-300">
                                 Higher Secondary Certificate (HSC)
                             </h2>
                             <p className="mt-2">

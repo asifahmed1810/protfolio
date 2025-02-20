@@ -41,7 +41,7 @@ const Header = () => {
 
           {/* Description */}
           <animated.p className="py-6 text-lg leading-relaxed" style={fadeInProps}>
-            I am a dedicated Web Developer in Front-End Development, specializing in React.js and proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js). My passion for web development drives me to create efficient, responsive, and user-friendly applications. While my primary focus has been on front-end development—crafting visually appealing and interactive user interfaces—I am equally enthusiastic about exploring back-end development.
+          I am a dedicated Web Developer in Front-End Development, specializing in React.js and proficient in the MERN stack (MongoDB, Express.js, React.js, Node.js). My passion for web development drives me to create efficient, responsive, and user-friendly applications. While my primary focus has been on front-end development—crafting visually appealing and interactive user interfaces—I am equally enthusiastic about exploring back-end development.
           </animated.p>
 
           {/* Social Media Icons */}

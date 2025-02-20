@@ -31,3 +31,17 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+
+
+
+  // 
+  // 
+  // https://i.ibb.co.com/k2cK1WWP/Couponizer.png
+  // https://i.ibb.co.com/SwbnKDZH/Cricket.png
+  // https://i.ibb.co.com/YTTnbTcV/donate.png
+  // 
+  // https://i.ibb.co.com/Z1h4zvcX/Gadget.png
+  // 
+  // 
+  // https://i.ibb.co.com/5XMWY8dR/pet.png
+  // 

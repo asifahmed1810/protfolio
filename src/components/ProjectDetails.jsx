@@ -20,10 +20,10 @@ const ProjectDetails = () => {
                 <p><strong  className='text-orange-500 text-lg'>Challenges:</strong> {project.challenges}</p>
                 <p><strong  className='text-orange-500 text-lg'>Future Improvements:</strong> {project.improvements}</p>
                 <div className="space-x-4">
-                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="btn btn-neutral text-blue-400 underline">
+                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="btn btn-neutral  text-orange-300 underline">
                         Live Project
                     </a>
-                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-neutral text-blue-400 underline">
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-neutral  text-orange-300 underline">
                         GitHub Repository
                     </a>
                 </div>

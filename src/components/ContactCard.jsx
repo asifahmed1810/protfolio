@@ -7,7 +7,7 @@ const ContactCard = () => {
     <div className="flex justify-center items-center my-16 px-4 overflow-hidden w-full">
       <div className="bg-gradient-to-r from-gray-900 to-gray-800 text-white w-full max-w-lg shadow-2xl rounded-xl p-8">
         {/* Card Title */}
-        <h2 className="text-3xl font-extrabold text-center text-rose-500 mb-6">Contact Me</h2>
+        <h2 className="text-3xl font-extrabold text-center text-orange-500 mb-6">Contact Me</h2>
         
         <div className="space-y-6">
           {/* Email Option */}

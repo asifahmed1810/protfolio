@@ -1,0 +1,77 @@
+[
+    {
+      "id": 1,
+      "name": "BistroBoss",
+      "image": "https://i.ibb.co.com/gbPKmvcw/bistro.png",
+      "techStack": [
+        "React.js , ", "Tailwind CSS , ", "Node.js , ", "Express.js , ", "MongoDB , ", "JWT , ", "Firebase Authentication"
+      ],
+      "description": "BistroBoss is a modern restaurant management platform that simplifies ordering, reservations, and payments. Customers can browse menus, place orders, and make secure payments, while admins efficiently manage menus, track orders, and handle reservations.",
+      "liveLink": "https://bistro-boss-79537.web.app",
+      "githubLink": "https://github.com/asifahmed1810/bistro-boss-client",
+      "challenges": "Implementing secure login and Stripe Payment System.",
+      "improvements": "Enhancing the UI/UX and adding advanced analytics for users."
+    },
+    {
+      "id": 2,
+      "name": "Mediflow",
+      "image": "https://i.ibb.co.com/jP4Kx12w/mediflow.png",
+      "techStack": [
+        "React.js , ", "Tailwind CSS , ", "Node.js , ", "Express.js , ", "MongoDB , ", "JWT , ", "Firebase Authentication"
+      ],
+      "description": "The Manage Camps Platform is a comprehensive solution for organizing, managing, and monitoring camps and participants.",
+      "liveLink": "https://mediflow-27ae3.web.app",
+      "githubLink": "https://github.com/asifahmed1810/medi-flow",
+      "challenges": "Implementing secure login and dynamic updates with real-time data.",
+      "improvements": "Enhancing the UI/UX and adding advanced analytics for camp management."
+    },
+    {
+      "id": 3,
+      "name": "VolunteerHub",
+      "image": "https://i.ibb.co.com/DD5xvWh0/slider2.png",
+      "techStack": [
+        "React.js , ", "Tailwind CSS , ", "Node.js , ", "Express.js , ", "MongoDB , ", "JWT , ", "Firebase Authentication"
+      ],
+      "description": "A platform that connects volunteers with organizers for various events and activities, streamlining the volunteering process and fostering community engagement.",
+      "liveLink": "https://volunteerhub-fdad1.web.app",
+      "githubLink": "https://github.com/asifahmed1810/Volunteer-Hub",
+      "challenges": "Implementing user authentication and dynamic volunteer sign-up functionality.",
+      "improvements": "Adding analytics for organizers and advanced filtering for volunteer posts."
+    },
+    {
+      "id": 4,
+      "name": "Chill Gamers",
+      "image": "https://i.ibb.co.com/qL2MFPP6/gamezone-dribbble-1.png",
+      "techStack": [
+        "React.js , ", "Tailwind CSS , ", "Node.js , ", "Express.js , ", "MongoDB , ", "JWT , ", "Firebase Authentication"
+      ],
+      "description": "A modern platform for interactive game review management with features like dynamic sorting, filtering, and a game watchlist.",
+      "liveLink": "https://gamezone-auth.web.app",
+      "githubLink": "https://github.com/asifahmed1810/Chill-Gamers",
+      "challenges": "Implementing dynamic sorting and filtering for user convenience.",
+      "improvements": "Adding more interactive features, such as personalized game recommendations."
+    },
+    {
+      "id": 5,
+      "name": "Architect Website",
+      "image": "https://i.ibb.co.com/Kpghm6bf/archutecs.png",
+      "techStack": ["HTML , ", "CSS , ", "Tailwind CSS , ", "DaisyUI"],
+      "description": "An architect-based website showcasing many architect-related blogs.",
+      "liveLink": "https://asifahmed1810.github.io/programming-hero-assignment-3/",
+      "githubLink": "https://github.com/asifahmed1810/programming-hero-assignment-3",
+      "challenges": "Ensuring responsiveness on all devices.",
+      "improvements": "Adding a blog section and integrating a dark mode toggle."
+    },
+    {
+      "id": 6,
+      "name": "Fitness Application",
+      "image": "https://i.ibb.co.com/QFBKwxrW/fitness.png",
+      "techStack": ["HTML , ", "CSS , ", "Tailwind CSS , ", "DaisyUI"],
+      "description": "It is a demo gym website.",
+      "liveLink": "https://asifahmed1810.github.io/programming-hero-assignment--2/",
+      "githubLink": "https://github.com/asifahmed1810/programming-hero-assignment--2",
+      "challenges": "Ensuring responsiveness on all devices.",
+      "improvements": "Adding more user functionalities."
+    }
+  ]
+
