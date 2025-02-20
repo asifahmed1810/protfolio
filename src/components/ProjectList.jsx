@@ -70,22 +70,22 @@ const ProjectList = () => {
       improvements:
         "Adding more interactive features, such as personalized game recommendations.",
     },
+    // {
+    //   id: 5,
+    //   name: "Donate-Bangladesh Website",
+    //   image: project1,
+    //   techStack: "HTML, CSS, Tailwind CSS, DaisyUI, JavaScript",
+    //   description: "It is a donating platform.",
+    //   liveLink:
+    //     "https://asifahmed1810.github.io/programming-hero-assignment-5/",
+    //   githubLink:
+    //     "https://github.com/asifahmed1810/programming-hero-assignment-5",
+    //   challenges: "Integrating JavaScript functionalities.",
+    //   improvements:
+    //     "Adding admin dashboard, optimizing database queries, and implementing AI recommendations.",
+    // },
     {
       id: 5,
-      name: "Donate-Bangladesh Website",
-      image: project1,
-      techStack: "HTML, CSS, Tailwind CSS, DaisyUI, JavaScript",
-      description: "It is a donating platform.",
-      liveLink:
-        "https://asifahmed1810.github.io/programming-hero-assignment-5/",
-      githubLink:
-        "https://github.com/asifahmed1810/programming-hero-assignment-5",
-      challenges: "Integrating JavaScript functionalities.",
-      improvements:
-        "Adding admin dashboard, optimizing database queries, and implementing AI recommendations.",
-    },
-    {
-      id: 6,
       name: "Architect Website",
       image: project2,
       techStack: "HTML, CSS, Tailwind CSS, DaisyUI",
@@ -99,7 +99,7 @@ const ProjectList = () => {
       improvements: "Adding a blog section and integrating a dark mode toggle.",
     },
     {
-      id: 7,
+      id: 6,
       name: "Fitness Application",
       image: project3,
       techStack: "HTML, CSS, Tailwind CSS, DaisyUI",
