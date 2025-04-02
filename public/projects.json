@@ -53,6 +53,41 @@
     },
     {
       "id": 5,
+      "name": "Couponizer",
+      "image": "https://i.ibb.co.com/k2cK1WWP/Couponizer.png",
+      "techStack": [
+        "Firebase , ",
+        "React Router DOM , ",
+        "React Icons , ",
+        "AOS , ",
+        "React Toastify"
+      ],
+      "description": "A user authentication system for a web application with profile management, password reset, and animations for an enhanced user experience.",
+      "liveLink": "https://coupon-auth-7f212.web.app/",
+      "githubLink": "https://github.com/asifahmed1810/Couponizer",
+      "challenges": "Ensuring secure authentication and seamless state management.",
+      "improvements": "Enhancing UI/UX design and implementing multi-factor authentication."
+    }, 
+   
+    {
+      "id": 6,
+      "name": "Dream-XI",
+      "image": "https://i.ibb.co.com/SwbnKDZH/Cricket.png",
+      "techStack": [
+        "React , ",
+        "Tailwind CSS , ",
+        "Vite , ",
+        "React Toastify , ",
+        "FontAwesome"
+      ],
+      "description": "A fantasy cricket web application that allows users to create their ultimate Dream XI lineup by selecting players based on real-world stats while managing a limited budget.",
+      "liveLink": "https://example-dreamxi.netlify.app/",
+      "githubLink": "https://github.com/asifahmed1810/Cricket-XI",
+      "challenges": "Balancing player selection within budget constraints and ensuring a smooth user experience.",
+      "improvements": "Adding real-time player stats integration and leaderboard rankings."
+    },          
+    {
+      "id": 7,
       "name": "Architect Website",
       "image": "https://i.ibb.co.com/Kpghm6bf/archutecs.png",
       "techStack": ["HTML , ", "CSS , ", "Tailwind CSS , ", "DaisyUI"],
@@ -63,7 +98,7 @@
       "improvements": "Adding a blog section and integrating a dark mode toggle."
     },
     {
-      "id": 6,
+      "id": 8,
       "name": "Fitness Application",
       "image": "https://i.ibb.co.com/QFBKwxrW/fitness.png",
       "techStack": ["HTML , ", "CSS , ", "Tailwind CSS , ", "DaisyUI"],

@@ -46,6 +46,7 @@ const Contact = () => {
 
     return (
      <div className="bg-gray-900 my-24 text-white min-h-screen p-8">
+        
             <div className="max-w-4xl mx-auto">
                 <h1 className="text-4xl font-bold text-center text-orange-500">Contact Me</h1>
                 <p className="text-center text-gray-400 mt-4">
